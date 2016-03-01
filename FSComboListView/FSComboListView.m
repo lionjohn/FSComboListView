@@ -1,10 +1,11 @@
-//
-//  IQComboPickerView.m
-//  iQuestionnaire
-//
-//  Created by PwC on 1/24/14.
-//  Copyright (c) 2013 Eli Lilly. All rights reserved.
-//
+/*
+ * This file is part of the FSComboListView package.
+ * (c) John <lion.john@icloud.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 
 
 #import "FSComboListView.h"
@@ -169,12 +170,17 @@
     
     [_valueLabel.layer setBorderColor:tintColor.CGColor];
     
-    [_pickerView setBackgroundColor:tintColor];
+    //[_pickerView setBackgroundColor:tintColor];
 }
 
 - (void)setTextColor:(UIColor*)textColor
 {
     _valueLabel.textColor = textColor;
+}
+
+- (void)setPopupBackgroudColor:(UIColor *)popupBackgroudColor
+{
+    _pickerView.backgroundColor = popupBackgroudColor;
 }
 
 - (void)selectRowAtIndex:(NSUInteger)rowIndex

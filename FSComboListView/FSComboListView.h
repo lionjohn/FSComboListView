@@ -1,10 +1,10 @@
-//
-//  IQComboPickerView.h
-//  iQuestionnaire
-//
-//  Created by PwC on 1/24/14.
-//  Copyright (c) 2013 Eli Lilly. All rights reserved.
-//
+/*
+ * This file is part of the FSComboListView package.
+ * (c) John <lion.john@icloud.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 
 #import <UIKit/UIKit.h>
@@ -28,14 +28,15 @@ typedef NS_ENUM(NSUInteger, FSComboListType) {
     UIControl      *_maskView;
 }
 
+@property (nonatomic, strong) UIColor *tintColor;
+@property (nonatomic, strong) UIColor *textColor;
+@property (nonatomic, strong) UIColor *popupBackgroudColor;
 
-@property (nonatomic, strong) NSString *currentValue;
-@property (nonatomic, assign) NSUInteger selectedRow;
+@property (nonatomic, readonly, strong) NSString *currentValue;
+@property (nonatomic, readonly, assign) NSUInteger selectedRow;
 @property (nonatomic, strong) id<FSComboPickerViewDelegate> delegate;
 @property (nonatomic) FSComboListType Combotype;
 
-- (void)setTintColor:(UIColor*)tintColor;
-- (void)setTextColor:(UIColor*)textColor;
 
 - (id)initWithValues:(NSArray *)values
                frame:(CGRect)frameRect;

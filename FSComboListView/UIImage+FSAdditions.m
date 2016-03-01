@@ -1,10 +1,11 @@
-//
-//  UIImage+FSAdditions.m
-//  HouseLoan
-//
-//  Created by john on 6/5/14.
-//  Copyright (c) 2014 jingjing. All rights reserved.
-//
+/*
+ * This file is part of the FSComboListView package.
+ * (c) John <lion.john@icloud.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 
 #import "UIImage+FSAdditions.h"
 
