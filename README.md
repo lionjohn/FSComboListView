@@ -6,6 +6,41 @@ This library provides a comboList view with support of customized styles.
 
 
 
+How To Use
+----------
+
+API documentation is available at [CocoaDocs - SDWebImage](http://cocoadocs.org/docsets/SDWebImage/)
+
+### Using UIImageView+WebCache category with UITableView
+
+Just #import the UIImageView+WebCache.h header, and call the sd_setImageWithURL:placeholderImage:
+method from the tableView:cellForRowAtIndexPath: UITableViewDataSource method. Everything will be
+handled for you, from async downloads to caching management.
+
+```objective-c
+#import <SDWebImage/UIImageView+WebCache.h>
+
+...
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *MyIdentifier = @"MyIdentifier";
+
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                       reuseIdentifier:MyIdentifier] autorelease];
+    }
+
+    // Here we use the new provided sd_setImageWithURL: method to load the web image
+    [cell.imageView sd_setImageWithURL:[NSURL URLWithString:@"http://www.domain.com/path/to/image.jpg"]
+                      placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+
+    cell.textLabel.text = @"My Text";
+    return cell;
+}
+```
+
+
 #MIT License
 
 	Copyright (c) 2016 Lion John. All rights reserved.
