@@ -1,7 +1,8 @@
 # FSComboListView
 
-This library provides a category for UIImageView with support for remote images coming from the web.
+This library provides a comboList view with support of customized styles.
 
+[![Pod License](http://img.shields.io/cocoapods/l/SDWebImage.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 
 
