@@ -2,7 +2,10 @@
 
 This library provides a comboList view with support of customized styles.
 
-[![Pod License](http://img.shields.io/cocoapods/l/SDWebImage.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![CI Status](http://img.shields.io/travis/Azuritul/AZDropdownMenu.svg?style=flat)](https://travis-ci.org/Azuritul/AZDropdownMenu)
+[![Version](https://img.shields.io/cocoapods/v/AZDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/AZDropdownMenu)
+[![License](https://img.shields.io/cocoapods/l/AZDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/AZDropdownMenu)
+[![Platform](https://img.shields.io/cocoapods/p/AZDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/AZDropdownMenu)
 
 
 
@@ -30,33 +33,23 @@ How To Use
     [self.view addSubview:comboListView];
 ```
 
+## Demo Project
 
-### Add the FSComboListView to your project
-
-- Download and unzip the last version of the framework from the [download page](https://github.com/lionjohn/FSComboListView/releases)
-- Right-click on the project navigator and select "Add Files to "Your Project":
-- In the dialog, select FSComboListView folder:
-- Check the "Copy items into destination group's folder (if needed)" checkbox
+To run the demo project, clone the repo with `git clone https://github.com/lionjohn/FSComboListView.git`
 
 
-### Import headers in your source files
+## Requirements
+- iOS 7 or above
 
-In the source files where you need to use the library, import the header file:
-
-```objective-c
-#import "FSComboListView.h"
-```
-
-### Build Project
-
-At this point your workspace should build without error. If you are having problem, post to the Issue and the
-community can help you solve it.
 
 Future Enhancements
 -------------------
 
 - Enalbe blocks;
 - Swift support;
+
+## Author
+Lion John, lion.john@icloud.com
 
 ## Licenses
 
