@@ -10,12 +10,11 @@ How To Use
 ----------
 
 
-### Using FSComboListView
-
 ```objective-c
 #import "FSComboListView.h"
 
-```
+...
+
     FSComboListView *comboListView = [[FSComboListView alloc] initWithValues:@[@"Value 1",
                                                                                @"Value 2",
                                                                                @"Value 3",
@@ -29,17 +28,16 @@ How To Use
     comboListView.center = self.view.center;
     
     [self.view addSubview:comboListView];
-
+```
 
 
 ### Add the FSComboListView to your project
 
 - Download and unzip the last version of the framework from the [download page](https://github.com/lionjohn/FSComboListView/releases)
 - Right-click on the project navigator and select "Add Files to "Your Project":
-- In the dialog, select FSComboListView:
+- In the dialog, select FSComboListView folder:
 - Check the "Copy items into destination group's folder (if needed)" checkbox
 
-```
 
 ### Import headers in your source files
 
