@@ -33,6 +33,38 @@ How To Use
 ```
 
 
+
+### Add the FSComboListView to your project
+
+- Download and unzip the last version of the framework from the [download page](https://github.com/lionjohn/FSComboListView/releases)
+- Right-click on the project navigator and select "Add Files to "Your Project":
+- In the dialog, select FSComboListView:
+- Check the "Copy items into destination group's folder (if needed)" checkbox
+
+```
+
+### Import headers in your source files
+
+In the source files where you need to use the library, import the header file:
+
+```objective-c
+#import "FSComboListView.h"
+```
+
+### Build Project
+
+At this point your workspace should build without error. If you are having problem, post to the Issue and the
+community can help you solve it.
+
+Future Enhancements
+-------------------
+
+- Blocks;
+- Swift;
+
+## Licenses
+
+
 #MIT License
 
 	Copyright (c) 2016 Lion John. All rights reserved.
