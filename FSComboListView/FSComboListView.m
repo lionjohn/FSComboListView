@@ -70,7 +70,7 @@
     _valueLabel = the_label;
     
     // arrow
-    UIImage *icon = [UIImage imageNamed:@"FSComboListView.bundle/comboDownArrow.png"];
+    UIImage *icon = [UIImage imageNamed:@"comboDownArrow.png"];
     icon = [icon imageWithTintColor:[UIColor whiteColor]];
     _arrowImgV = [[UIImageView alloc] initWithImage:icon];
     _arrowImgV.frame = CGRectMake(frame.size.width-COMBOBOX_HEIGHT, 0, COMBOBOX_HEIGHT, COMBOBOX_HEIGHT);
