@@ -8,6 +8,12 @@ This library provides a comboList view with support of customized styles.
 [![Platform](https://img.shields.io/cocoapods/p/AZDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/AZDropdownMenu)
 
 
+## Screenshots
+Code used in the screencast are included in the bundled sample project.
+
+![screencast](https://cloud.githubusercontent.com/assets/879197/13528338/455c738a-e250-11e5-8671-312aa58a63e1.gif)
+
+
 
 How To Use
 ----------
