@@ -15,9 +15,14 @@ How To Use
 ```objective-c
 #import "FSComboListView.h"
 
-...
+```
 
-    FSComboListView *comboListView = [[FSComboListView alloc] initWithValues:@[@"Value 1", @"Value 2", @"Value 3",@"Value 4", @"Value 5"] frame:CGRectMake(0, 0, 300, 40)];
+    FSComboListView *comboListView = [[FSComboListView alloc] initWithValues:@[@"Value 1",
+                                                                               @"Value 2",
+                                                                               @"Value 3",
+                                                                               @"Value 4",
+                                                                               @"Value 5"]
+                                                                       frame:CGRectMake(0, 0, 300, 40)];
     comboListView.delegate = self;
     comboListView.tintColor = [UIColor darkGrayColor];
     comboListView.textColor = [UIColor darkGrayColor];
