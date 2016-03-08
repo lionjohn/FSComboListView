@@ -41,7 +41,7 @@ How To Use
 
 ## Demo Project
 
-To run the demo project, clone the repo with `git clone https://github.com/lionjohn/FSComboListView.git`
+To run the demo project, download and unzip the code.  `https://github.com/lionjohn/FSComboListView/tree/master/Example`
 
 
 ## Requirements
