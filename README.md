@@ -10,7 +10,7 @@ This library provides a comboList view with support of customized styles.
 ## Screenshots
 Code used in the screencast are included in the bundled sample project.
 
-![screencast](https://cloud.githubusercontent.com/assets/879197/13528338/455c738a-e250-11e5-8671-312aa58a63e1.gif)
+![screencast](https://raw.githubusercontent.com/lionjohn/FSComboListView/master/Example/FSComboListView%20Demo/screenshot.gif)
 
 
 
