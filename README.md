@@ -17,6 +17,7 @@ Code used in the screencast are included in the bundled sample project.
 How To Use
 ----------
 
+### 1. Initialize FSComboListView
 
 ```objective-c
 #import "FSComboListView.h"
@@ -37,6 +38,8 @@ How To Use
     
     [self.view addSubview:comboListView];
 ```
+
+### 2. Implement Delegates
 
 ```
 
