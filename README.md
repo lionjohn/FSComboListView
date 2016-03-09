@@ -63,7 +63,7 @@ How To Use
 
 ## Demo Project
 
-To run the demo project, download and unzip the code.  [FSComboListView Example](https://github.com/lionjohn/FSComboListView/tree/master/Example)
+To run the demo project, download and unzip the code. See [Example](https://github.com/lionjohn/FSComboListView/tree/master/Example)
 
 
 ## Requirements
