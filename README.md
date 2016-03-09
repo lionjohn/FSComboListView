@@ -38,6 +38,26 @@ How To Use
     [self.view addSubview:comboListView];
 ```
 
+```
+
+- (void) comboboxOpened:(FSComboListView *)combobox
+{
+    NSLog(@"comboboxOpened");
+}
+
+- (void) comboboxClosed:(FSComboListView *)combobox
+{
+    NSLog(@"comboboxClosed");
+}
+
+- (void) comboboxChanged:(FSComboListView *)combobox toValue:(NSString *)toValue
+{
+    NSLog(@"comboboxChanged to value %@",toValue);
+}
+
+```
+
+
 ## Demo Project
 
 To run the demo project, download and unzip the code.  `https://github.com/lionjohn/FSComboListView/tree/master/Example`
